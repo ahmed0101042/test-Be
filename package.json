@@ -20,11 +20,14 @@
     "swagger-ui-express": "^4.6.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "@angular/cli": "^18.2.6"
+
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "build": "ng build",
+    "start": "ng serve",
+    "test": "ng test"
   },
   "author": "Mohamed Yossry",
   "license": "ISC"
